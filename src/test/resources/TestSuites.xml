@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Home page Suite">
+<!-- Test -->
+  <test name="TCID1">
+    <classes>
+      <class name="executionscript.TCID1"/>
+    </classes>
+  </test>
+   <test name="TCID2">
+    <classes>
+      <class name="executionscript.TCID2"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

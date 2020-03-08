@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.411 sec <<< FAILURE! - in TestSuite
+startTest(executionscript.TCID1)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at automationlibrary.AutomationScript.launcher(AutomationScript.java:20)
+	at executionscript.TCID1.startTest(TCID1.java:11)
+
+runTest(executionscript.TCID2)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at automationlibrary.AutomationScript.getElements(AutomationScript.java:23)
+	at executionscript.TCID2.runTest(TCID2.java:10)
+
